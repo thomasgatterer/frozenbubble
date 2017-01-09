@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=gameApplet
+comment0.target=OnlineScreen(net.library.jiga.GameApplet)
+comment1.params=
+comment1.target=void\ initBackground()
+comment2.params=keyCodes\ mouseCoord\ leftButton\ rightButton
+comment2.target=void\ play(int[],\ java.awt.Point,\ boolean,\ boolean)
+comment3.params=text\ font
+comment3.target=int\ getTextSize(java.lang.String,\ net.library.jiga.GameFont)
+numComments=4

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ gameInit()
+comment1.params=
+comment1.target=void\ switchMode()
+comment2.params=newMode
+comment2.target=void\ setMode(int)
+comment3.params=
+comment3.target=int\ getMode()
+comment4.params=
+comment4.target=net.library.jiga.GameScreen\ getInitialScreen()
+comment5.params=
+comment5.target=boolean\ needsMouseEvents()
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+numComments=7

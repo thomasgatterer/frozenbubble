@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=applet\ initialColor\ initialDirection
+comment0.target=LaunchBubbleSprite(net.library.jiga.GameApplet,\ int,\ int)
+comment1.params=applet
+comment1.target=void\ createLauncherImages(net.library.jiga.GameApplet)
+comment2.params=newColor
+comment2.target=void\ changeColor(int)
+comment3.params=newDirection
+comment3.target=void\ changeDirection(int)
+comment4.params=g\ applet
+comment4.target=void\ paint(java.awt.Graphics,\ net.library.jiga.GameApplet)
+numComments=5

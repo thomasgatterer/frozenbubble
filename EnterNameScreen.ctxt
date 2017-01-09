@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=gameApplet
+comment0.target=EnterNameScreen(net.library.jiga.GameApplet)
+comment1.params=
+comment1.target=void\ initBackground()
+comment2.params=code
+comment2.target=boolean\ isValidChar(int)
+comment3.params=keyCodes\ mouseCoord\ leftButton\ rightButton
+comment3.target=void\ play(int[],\ java.awt.Point,\ boolean,\ boolean)
+numComments=4
