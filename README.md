@@ -9,9 +9,11 @@ for win use (you have to configure the paths!)
 buildrunnFrozenBubble.bat
 
 ## points of interest
+find (count) if / else statemets in FrozenGame.java
 
 
-License
+
+##License
 /*
  *                 [[ Frozen-Bubble ]]
  *
