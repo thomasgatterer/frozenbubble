@@ -10,10 +10,16 @@ buildrunnFrozenBubble.bat
 
 ## points of interest
 find (count) if / else statemets in FrozenGame.java
+explore/change/rebuild levels.txt 
 
+
+
+## similar projects
+paper mindcraft https://scratch.mit.edu/projects/10128407/
 
 
 ##License
+
 /*
  *                 [[ Frozen-Bubble ]]
  *
