@@ -15,7 +15,8 @@ explore/change/rebuild levels.txt
 
 
 ## similar projects
-paper mindcraft https://scratch.mit.edu/projects/10128407/
+scratch paper mindcraft https://scratch.mit.edu/projects/10128407/
+c++ http://www.cppforschool.com/
 
 
 ##License
