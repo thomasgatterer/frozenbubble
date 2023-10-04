@@ -55,7 +55,7 @@ public abstract class GameApplet extends Applet implements Runnable, KeyListener
 
     private GameMedia currentMedia;
 
-    private SunAudioManager sunAudio;
+    private JavaSoundManageTG sunAudio;
 
     private int gameWidth, gameHeight;
 
@@ -96,7 +96,7 @@ public abstract class GameApplet extends Applet implements Runnable, KeyListener
         currentMedia = new GameMedia(this);
 
         try {
-            sunAudio = new SunAudioManager(this);
+            sunAudio = new JavaSoundManageTG(this);
         } catch (Exception e) {
             System.err.println("Package sun.audio is not available");
         }
@@ -172,7 +172,7 @@ public abstract class GameApplet extends Applet implements Runnable, KeyListener
      * @return the audio manager associated with the current processus
      * @see SunAudioManager
      */
-    public final SunAudioManager getSunAudioManager() {
+    public final JavaSoundManageTG getSunAudioManager() {
         return sunAudio;
     }
 

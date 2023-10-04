@@ -98,9 +98,9 @@ public class SplashScreen extends GameScreen
 		
 		String message = "| FROZEN BUBBLE 1UP V 1.0.1 - JAVA RELEASE 4  {  DESIGN & PROGRAMMING - Guillaume Cottenceau";
 		message += "  }  GRAPHICS - Alexis Younes (AYO73)  [  GRAPHICS (BUBBLES) - Amaury Amblard-Ladurantie";
-		message += "  ]  SOUND & MUSIC - Matthias Le Bidan (Matths)  £  JAVA 1.1+ VERSION - Glenn sanson ";
+		message += "  ]  SOUND & MUSIC - Matthias Le Bidan (Matths)   JAVA 1.1+ VERSION - Glenn sanson ";
 		message += "  \\ SPECIAL THANKS to Benoit dien for his help & to my wife for her patience";
-		message += "  µ  PLEASE VISIT THE FROZEN BUBBLE OFFICIAL WEB SITE AT HTTP://WWW.FROZEN-BUBBLE.ORG  §";
+		message += "    PLEASE VISIT THE FROZEN BUBBLE OFFICIAL WEB SITE AT HTTP://WWW.FROZEN-BUBBLE.ORG  ";
 		
 		ScrollingTextSprite scrollingMessage = new ScrollingTextSprite(new Rectangle(168, 9, 300, 22), font, message, 1);
 		this.addSprite(scrollingMessage);

@@ -85,7 +85,7 @@ public class OfflineScreen extends GameScreen
 				
 		levelString = "Level "+Integer.toString(levelManager.getLevelIndex()-1);
 		commentString = comment[(levelManager.getLevelIndex()-2) / 4];
-		starString = new String("]£§µ").substring(0, (levelManager.getLevelIndex()-2)%4+1);
+		starString = new String("*").substring(0, (levelManager.getLevelIndex()-2)%4+1);
 		
 		this.addSprite(new TextSprite(new Rectangle(190, 100, 280, 22), font, "Last level completed"));
 		this.addSprite(new TextSprite(new Rectangle((640-getTextSize(levelString, font))>>1, 125, 280, 22), font, levelString));

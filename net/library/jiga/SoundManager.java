@@ -37,7 +37,7 @@ public class SoundManager
 	private final int AUDIO_STREAM = 2;
 	
 	private AudioClip[] managedAudioClips;
-	private SunAudioManager sunAudio;
+	private JavaSoundManageTG sunAudio;
 	
 	private boolean playSounds;
 	private int audioType;
@@ -150,7 +150,8 @@ public class SoundManager
 					}
 					else
 					{
-						sunAudio.playSound(sound);
+						sunAudio.playSound("applause.au");
+//						sunAudio.playSound(sound);
 					}				
 				
 
