@@ -1,5 +1,5 @@
 /*
- *                 [[ Frozen-Bubble ]]
+ *                  [[ Frozen-Bubble ]]
  *
  * Copyright (c) 2000-2003 Guillaume Cottenceau.
  * Java sourcecode - Copyright (c) 2003 Glenn Sanson.
