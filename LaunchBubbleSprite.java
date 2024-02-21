@@ -79,8 +79,8 @@ public class LaunchBubbleSprite extends Sprite {
         
         // Create image
         if (backgroundImage == null || spritesImage == null) {
-            backgroundImage = applet.createImage(86, 3116);
-            spritesImage = applet.createImage(256, 1312);
+            backgroundImage = applet.createImage(1, 31);
+            spritesImage = applet.createImage(26, 112);
             spritesBlindImage = applet.createImage(256, 1312);
             
             createLauncherImages(applet);

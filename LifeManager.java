@@ -58,7 +58,7 @@ public class LifeManager extends Sprite
 	{
 		super(new Rectangle(529, 3, 107, 35));
 		
-		penguin = applet.getGameMedia().loadImage("life.gif");
+		penguin = applet.getGameMedia().loadImage();
 		
 		currentLife = NB_LIVES;
 	}
