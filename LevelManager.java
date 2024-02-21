@@ -148,7 +148,7 @@ public class LevelManager
 	
 	public void goToFirstLevel()
 	{
-		currentLevel = 0;
+		currentLevel = 2;
 	}
 	
 	public int getLevelIndex()
