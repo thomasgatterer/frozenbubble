@@ -78,14 +78,14 @@ public class BubbleManager
 	
 	public int nextBubbleIndex(Random rand)
 	{
-		int select = rand.nextInt() % (bubbles.length-4);
+		int select = rand.nextInt() % (bubbles.length);
 		
 		if (select < 0)
 		{
 			select = -select;
 		}
-		return select;
-/*
+		
+
 		int count = -1;
 		int position = -1;
 		
@@ -104,7 +104,7 @@ public class BubbleManager
 			}
 		}
 		
-		return position;*/
+		return position;
 	}
 	
 	public Image nextBubble(Random rand)
