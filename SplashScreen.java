@@ -96,9 +96,9 @@ public class SplashScreen extends GameScreen
 		
 		penguinEyes = new ImageSprite(new Rectangle(370, 280, 19, 9), media.loadImage("close_eyes.gif"));
 		
-		String message = "| Hallo, wie geht es dir?
-		message += "  }  "Änderungen von Samuel";
-		message += "  ]  Guter Sound";
+		String message = "| Hallo, wie geht es dir?"
+		message += " Änderungen von Samuel";
+		message += "  ""]  Guter Sound";
 		message += "  \\ SPECIAL THANKS to Benoit dien for his help & to my wife for her patience";
 		message += "    PLEASE VISIT THE FROZEN BUBBLE OFFICIAL WEB SITE AT HTTP://WWW.FROZEN-BUBBLE.ORG  ";
 		
