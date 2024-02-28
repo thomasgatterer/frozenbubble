@@ -44,14 +44,17 @@
  */
 
 import java.util.Vector;
+import java.util.Scanner;
 
 public class LevelManager
 {
-	private int currentLevel;	
+	private int currentLevel;
 	private Vector levelList;
+	
 	
 	public LevelManager(byte[] levels)
 	{
+	
 		String allLevels = new String(levels);
 
 		currentLevel = 0;
@@ -143,16 +146,16 @@ public class LevelManager
 	
 	public void goToNextLevel()
 	{
-		currentLevel++;
+		currentLevel--;
 	}
 	
 	public void goToFirstLevel()
 	{
-		currentLevel = 2;
+		currentLevel = 50;
 	}
 	
 	public int getLevelIndex()
 	{
-		return currentLevel+1;
+		return currentLevel-1;
 	}
 }
