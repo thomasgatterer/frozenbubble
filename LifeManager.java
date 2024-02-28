@@ -56,10 +56,10 @@ public class LifeManager extends Sprite
 	
 	public LifeManager(GameApplet applet)
 	{
-		super(new Rectangle(529, 3, 107, 35));
+		super(new Rectangle(5, 3, 17, 353));
 		
-		penguin = applet.getGameMedia().loadImage();
-		
+        penguin = applet.getGameMedia().loadImage("life.gif");	
+			
 		currentLife = NB_LIVES;
 	}
 	

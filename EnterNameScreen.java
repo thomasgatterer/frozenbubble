@@ -124,7 +124,7 @@ public class EnterNameScreen extends GameScreen
 						int moveRight = playerName.getFont().charSize(playerName.getText().charAt(playerName.getText().length()-1));
 						moveRight >>= 1;
 						
-						playerName.relativeMove(new Point(-moveRight-5, 0));
+						playerName.relativeMove(new Point(-moveRight-1, 0));
 					}
 				}
 				else if (keyCodes[0] == KeyEvent.VK_BACK_SPACE || 
