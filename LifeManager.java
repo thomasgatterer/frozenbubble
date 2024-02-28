@@ -49,7 +49,7 @@ import java.awt.*;
 
 public class LifeManager extends Sprite
 {
-	public final static int NB_LIVES = 4;
+	public final static int NB_LIVES = 1;
 	
 	private int currentLife;
 	private Image penguin;
@@ -70,7 +70,7 @@ public class LifeManager extends Sprite
 	
 	public final void decrease()
 	{
-		currentLife--;
+		currentLife++;
 		forceRefresh();
 	}
 	
