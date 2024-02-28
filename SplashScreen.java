@@ -96,9 +96,9 @@ public class SplashScreen extends GameScreen
 		
 		penguinEyes = new ImageSprite(new Rectangle(370, 280, 19, 9), media.loadImage("close_eyes.gif"));
 		
-		String message = "| Hallo, wie geht es dir?";
-		message += " Änderungen von Samuel";
-		message += "    Guter Sound";
+	    String message = "| FROZEN BUBBLE 1UP V 1.0.1 - JAVA RELEASE 4  {  DESIGN & PROGRAMMING - Guillaume Cottenceau";
+		message += "  }  GRAPHICS - Alexis Younes (AYO73)  [  GRAPHICS (BUBBLES) - Amaury Amblard-Ladurantie";
+		message += "  ]  SOUND & MUSIC - Matthias Le Bidan (Matths)   JAVA 1.1+ VERSION - Glenn sanson ";
 		message += "  \\ SPECIAL THANKS to Benoit dien for his help & to my wife for her patience";
 		message += "    PLEASE VISIT THE FROZEN BUBBLE OFFICIAL WEB SITE AT HTTP://WWW.FROZEN-BUBBLE.ORG  ";
 		
