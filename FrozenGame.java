@@ -52,7 +52,7 @@ import java.util.Random;
 public class FrozenGame extends GameScreen
 {
 	public final static int HORIZONTAL_MOVE = 0;
-	public final static int FIRE = 5;
+	public final static int FIRE = 1;
 	
 	public final static int KEY_UP = 38;
 	public final static int KEY_LEFT = 37;
