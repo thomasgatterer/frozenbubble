@@ -47,32 +47,29 @@ import net.library.jiga.*;
 
 import java.awt.*;
 
-public class Compressor
-{
-	private ImageSprite compressorHead;
-	private Image compressorBody;
-	
-	private GameMedia media;
-	private GameScreen screen;
-		
-	public Compressor(GameMedia media, GameScreen screen)
-	{	
-		this.media = media;
-		this.screen = screen;
-		
-		compressorHead = new ImageSprite(new Rectangle(160, -7, 321, 51),
-										 media.loadImage("compressor.gif"));
-		
-		compressorBody = media.loadImage("compressorBody.gif");
-		
-		screen.addSprite(compressorHead);
-	}
-	
-	public void moveDown()
-	{		
-		screen.addToBackground(compressorBody, new Point(compressorHead.getSpritePosition().x+75, compressorHead.getSpritePosition().y+3));
-		screen.addToBackground(compressorBody, new Point(compressorHead.getSpritePosition().x+231, compressorHead.getSpritePosition().y+3));
-		
-		compressorHead.relativeMove(new Point(0, 28));
-	}
+public class Compressor {
+    private ImageSprite compressorHead;
+    private Image compressorBody;
+
+    private GameScreen screen;
+
+    public Compressor(GameMedia media, GameScreen screen) {
+        this.screen = screen;
+
+        compressorHead = new ImageSprite(new Rectangle(160, -7, 321, 51),
+                media.loadImage("compressor.gif"));
+
+        compressorBody = media.loadImage("compressorBody.gif");
+
+        screen.addSprite(compressorHead);
+    }
+
+    public void moveDown() {
+        screen.addToBackground(compressorBody,
+                new Point(compressorHead.getSpritePosition().x + 75, compressorHead.getSpritePosition().y + 3));
+        screen.addToBackground(compressorBody,
+                new Point(compressorHead.getSpritePosition().x + 231, compressorHead.getSpritePosition().y + 3));
+
+        compressorHead.relativeMove(new Point(0, 28));
+    }
 }
