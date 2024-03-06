@@ -82,8 +82,7 @@ public class LifeManager extends Sprite
 	public final void paint(Graphics g, GameApplet applet)
 	{
 		for (int i=0 ; i<currentLife ; i++)
-		if (int currentlife >= 5)
-		int currentlife + 1;
+		
 		{
 			g.drawImage(penguin, 601-i*36, 3, applet);
 		}
